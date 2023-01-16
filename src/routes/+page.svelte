@@ -168,6 +168,10 @@
   </div>
 </main>
 
+<svelte:head>
+  <title>Psicóloga Maria Julia Marques</title>
+</svelte:head>
+
 <style>
   .img-myself {
     width: 20%;
