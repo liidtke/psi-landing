@@ -29,13 +29,14 @@
     <section class="container">
       <h3>Especialista em Psicologia Clínica</h3>
       <h1>Psicóloga Maria Julia Marques</h1>
-      <p>
+      <p class="small">
         ‘‘Quando a situação for boa, desfrute-a. Quando a situação for ruim,
         transforme-a. Quando a situação não puder ser transformada,
         transforme-se’’. - Viktor Frankl
       </p>
 
       <button class="button" on:click={open}>Entrar em Contato</button>
+      <div class="spacer" />
     </section>
 
     <img class="img-myself" src="/me.jpg" alt="me" />
@@ -44,7 +45,7 @@
     <section class="container">
       <div class="row">
         <div class="column">
-          <h3>Benefícios da Terapia</h3>
+          <h3>Possíveis Benefícios da Terapia</h3>
           <ul>
             <li>Manejo da ansiedade elevada</li>
             <li>Manejo das emoções</li>
@@ -180,7 +181,7 @@
   @media (max-width: 600px) {
     .img-myself {
       width: 33%;
-      top: 530px;
+      top: 490px;
     }
     .computer {
       display: none;
@@ -258,5 +259,13 @@
 
   .whatscontact {
     height: 25px;
+  }
+
+  .spacer {
+    padding: 1.5rem;
+  }
+
+  p.small {
+    margin-bottom: 1rem;
   }
 </style>
