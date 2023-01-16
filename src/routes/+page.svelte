@@ -182,7 +182,7 @@
   @media (max-width: 600px) {
     .img-myself {
       width: 33%;
-      top: 520px;
+      top: 530px;
     }
     .computer {
       display: none;
