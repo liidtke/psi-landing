@@ -64,6 +64,7 @@
           </p>
         </div>
       </div>
+      <button class="button" on:click={open}>Entrar em Contato</button>
     </section>
   </div>
 
@@ -150,6 +151,7 @@
         horários. Se houver cancelamento de última hora ou falta sem aviso
         prévio poderá ser cobrada uma taxa.
       </p>
+      <button class="button" on:click={open}>Entrar em Contato</button>
     </section>
   </div>
 
@@ -157,13 +159,9 @@
     <section class="container">
       <p class="centered">
         Atenção: Este site não oferece atendimento imediato a pessoas em crise
-        suicida. Em caso de crise ligue para o CVV - 188 Em caso de emergência,
+        suicida. Em caso de crise ligue para o CVV 188. Em caso de emergência,
         procure o hospital mais próximo. Havendo risco de morte, ligue
         imediatamente para o SAMU (telefone 192).
-      </p>
-      <p class="centered">
-        Precisa ter durante a página: Fale comigo agora / Me chame no Whatsapp /
-        Agende uma consulta
       </p>
     </section>
   </div>
