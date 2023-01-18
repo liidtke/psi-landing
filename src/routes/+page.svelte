@@ -59,7 +59,7 @@
         </div>
         <div class="column small-m">
           <p>Atendimento para todas as idades. Presencial e/ou online.</p>
-          <p>
+          <p class="highlight">
             Forneço recibo para convênios que trabalham com a modalidade de
             reembolso.
           </p>
@@ -79,9 +79,7 @@
         paciente a desenvolver sua autonomia e a responsabilidade pessoal diante
         dos dilemas do dia a dia. Associado a isso, também estimula o
         entendimento de quais os sentidos de sua vida e como isso se relaciona
-        com a satisfação e felicidade pessoal. Na prática, a terapia é conduzida
-        como uma conversa, onde troca-se informações e estimula-se a reflexão
-        pra encontrar possíveis soluções para os problemas e dificuldades.
+        com a satisfação e felicidade pessoal.
       </p>
       <strong>Quais problemas podem ser trabalhados em psicoterapia?</strong>
       <p>
@@ -131,11 +129,7 @@
         grande. Entretanto, quando se trata de terapia, não há como definir um
         prazo com exatidão. Existem estimativas de duração de acompanhamento
         psicoterapêutico, mas como cada paciente tem a sua própria personalidade
-        e desafios, é preciso analisar cada caso separadamente. Isso significa
-        que você pode demorar para ver os resultados desejados. Todavia,
-        acredite, eles aparecerão à medida que você se permitir se conhecer e
-        passar por processos de mudança. Para isso, é preciso dar tempo ao
-        tempo.
+        e desafios, é preciso analisar cada caso separadamente.
       </p>
 
       <strong>Aceita convênio?</strong>
@@ -185,7 +179,7 @@
   @media (max-width: 600px) {
     .img-myself {
       width: 33%;
-      top: 490px;
+      top: 480px;
     }
     .computer {
       display: none;
@@ -266,10 +260,14 @@
   }
 
   .spacer {
-    padding: 1.5rem;
+    padding: 2rem;
   }
 
   p.small {
     margin-bottom: 1rem;
+  }
+
+  .highlight {
+    font-size: 14pt;
   }
 </style>
