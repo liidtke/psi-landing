@@ -45,7 +45,7 @@
     <section class="container">
       <div class="row">
         <div class="column">
-          <h3>Possíveis Benefícios da Terapia</h3>
+          <h3 class="sm">Possíveis Benefícios da Terapia</h3>
           <ul>
             <li>Manejo da ansiedade elevada</li>
             <li>Manejo das emoções</li>
@@ -55,10 +55,8 @@
             <li>Desenvolvimento de habilidades sociais</li>
             <li>Reconhecimento do seu propósito de vida</li>
             <li>Identificação de pontos frágeis</li>
+            <li>Atendimento para todas as idades. Presencial e/ou online.</li>
           </ul>
-        </div>
-        <div class="column small-m">
-          <p>Atendimento para todas as idades. Presencial e/ou online.</p>
           <p class="highlight">
             Forneço recibo para convênios que trabalham com a modalidade de
             reembolso.
@@ -168,18 +166,22 @@
 
 <style>
   .img-myself {
-    width: 20%;
+    width: 30%;
     position: absolute;
     top: 14%;
-    right: 2%;
+    right: 4%;
     border: solid 3pt white;
     border-radius: 4px;
   }
 
   @media (max-width: 600px) {
+  .sm {
+    max-width: 230px;
+  }
     .img-myself {
-      width: 33%;
-      top: 480px;
+      object-fit: fill;
+      width: 40%;
+      top: 485px;
     }
     .computer {
       display: none;
@@ -268,6 +270,8 @@
   }
 
   .highlight {
+    margin-top:50px;
     font-size: 14pt;
   }
+
 </style>

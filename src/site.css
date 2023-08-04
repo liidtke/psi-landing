@@ -10,13 +10,13 @@
     --red: #bf616a;
     --orange: #C7816B;
     --yellow: #ebcb8b;
-    --green: #8CA676;
+    --green: #5f8868;
     --pink: #b48ead;
     --inverted: #434c5e;
   }
 
   body {
-    font-family: "Lato";
+    font-family: "Lato, Roboto, sans-serif";
     background-color: var(--bg);
   }
   a {
